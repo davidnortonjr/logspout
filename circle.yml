@@ -16,6 +16,6 @@ test:
 
 deployment:
   release:
-    branch: release
+    branch: drone-build
     commands:
       - make release
